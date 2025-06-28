@@ -1,43 +1,41 @@
-# project3-group2
-Project Title: Game of Set using JavaScript
+# GameofSet
 
-Final Submission for Group 2 (Ben, Fatuma, Layan, and Riya)
+### Project Title:
+Game of Set (JavaScript Implementation)  
+By: Riya Patel
 
-Project Description:
+---
+
+## 📝 Project Description
+
 This project is a browser-based version of the card game Set, built with JavaScript, HTML, and CSS.
 
-Rules:
+### 🎮 Game Rules
+
 A set is a group of 3 cards where each attribute—shape, count, shading, and color—is either all the same or all different across all three cards.
 
 Players take turns picking what they believe is a valid set. After selecting three cards, they click "Check Set" to see if they’re right.
 
-- If the set is valid, the player gets +10 points
+- ✅ Correct set: +10 points  
+- ❌ Incorrect set: -5 points  
+- 💡 Need help? Use the "Get a Hint" button for help identifying how many valid sets are on the board and which cards make up a set. Or restart the game to get a fresh set of cards.
 
-- If the set is invalid, they lose 5 points
+---
 
-- Stuck? Use the "Get a Hint" button for help identifying how many valid sets are on the board and which cards make up a set. Or restart the game to get a fresh set of cards.
+## ✨ Features
 
-Features:
+- 🧍‍♀️ **Initial Player Prompts** — Enter number of players and their names at game start
+- 📊 **Scoreboard** — Tracks player scores and highlights the current turn
+- ⏱️ **Timer** — Displays how long the game has been running
+- ✔️ **Check Set Button** — Verifies the selected cards and updates score
+- 💡 **Get Hint Button** — Offers layered clues about valid sets on the board
+- 📦 **Hint Box** — Displays detailed hints
+- 🔄 **Restart Button** — Resets the entire game state
+- 🛑 **End Game Button** — Displays final scores, winner, and game time
 
-- Initial Game Prompts – On game start, popups ask how many players are joining and their names
+---
 
-- Scoreboard – Displays each player’s name and score, and highlights whose turn it is
-
-- Timer – Tracks how long the game has been running
-
-- Check Set Button – Validates the selected set and updates the score accordingly
-
-- Get Hint Button – Offers layered hints about the number and location of sets on the board
-
-- Hint Box – Shows the hints provided
-
-- Clear Hint Button – Clears the hint box
-
-- Restart Game Button – Resets the board, scores, and timer
-
-- End Game Button – Ends the game, shows the final scores, game duration, winner, and offers a chance to play again
-
-How to Run the Project:
+## 🚀 How to Run the Game
 
 1. Clone the repository:
 git clone https://github.com/CSE3901-SP25-11309/project3-group2.git
