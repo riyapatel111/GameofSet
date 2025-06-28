@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game of Set</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 class="title">Game of Set</h1>
+
+  <div id="playerModal" class="playerModal" style="display: flex">
+    <div class="modal-content">
+      <h2>Enter Number of Players</h2>
+      <input type="number" id="playerCount" min="1" max="10" value="2">
+      <button id="nameBtn">Next</button>
+    </div>
+  </div>
+
+  <div id="nameModal" style="display: none;">
+    <div class="modal-content">
+      <h2 id="namePrompt">Enter Player Name:</h2>
+      <input type="text" id="nameInput">
+      <button id="nextPlayerBtn">Next</button>
+    </div>
+  </div>
+
+  <div id="gameContent"> 
+    <div class="game-container">
+
+      <div class="sidebar">
+        <div class="player-container">
+          <h3>Players Score</h3>
+          <ol id="playerInfo"></ol>
+        </div>
+        <div id="timer">Game Duration: 00:00s</div>
+        <button class="game-button" id="checkSetBtn">Check Set</button>
+        <button class="game-button" id="restartBtn">Restart Game</button>
+        <button class="game-button" id="endGameBtn">End Game</button>
+        
+      </div>    
+
+      <div class="board-container">
+        <div class="game-board" id="gameBoard"></div>
+      </div>
+
+      <div id="hintSidebar" class="sidebar hint-sidebar">
+      
+        <div id="hintList"></div>
+        <button class="game-button" id="hintBtn">Get a Hint</button>
+        <button class="game-button" onclick="clearHintBank()">Clear Hints</button>
+        <div class="hint-box" id="hintBox">
+          <strong>Hint Bank:</strong>
+          <div id="hintBank"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="startGameModal" class="startGameModal" style="display: none;">
+    <div class="modal-content">
+      <h2>Ready to Play?</h2>
+      <button class="game-button" id="startGameBtn">Start Game</button>
+    </div>
+  </div>
+
+  <div id="endGameModal" class="endGameModal" style="display: none;">
+    <div class="modal-content">
+      <h2>Final Scores</h2>
+      <ul id="finalScoresList"></ul>
+      <button class="game-button" onclick="playAgain()">Play Again</button>
+    </div>
+  </div>  
+
+  <script src="gameConfig.js"></script>
+  <script src="gameTimer.js"></script>
+  <script src="cardUtils.js"></script>
+  <script src="setValidation.js"></script>
+  <script src="hintSystem.js"></script>
+  <script src="setLogic.js"></script>
+  <script src="gameBoard.js"></script>
+  <script src="playerCreator.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
