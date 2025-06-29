@@ -78,13 +78,13 @@ I designed and developed this full-stack browser game, Game of Set, using JavaSc
 
 ## Divided tasks into 4 parts:
 
-♥️ Part 1: Built the game board, card UI, selection logic, and designed a clean user interface with intuitive instructions (index.html, gameBoard.js, gameConfig.js, cardUtils.js, style.css)
+📊 Part 1: Built the game board, card UI, selection logic, and designed a clean user interface with intuitive instructions (index.html, gameBoard.js, gameConfig.js, cardUtils.js, style.css)
 
-♥️ Part 2: Added the timer, created the full hint system, and linked the player system to the scoring logic. Also refined the game loop (index.html, setLogic.js, gameTimer.js, style.css, playerCreator.js, cardUtils.js)
+📊 Part 2: Added the timer, created the full hint system, and linked the player system to the scoring logic. Also refined the game loop (index.html, setLogic.js, gameTimer.js, style.css, playerCreator.js, cardUtils.js)
 
-♥️ Part 3: Created the player class, initial name/turn prompts, scoreboard display, and wrote the initial README (index.html, playerCreator.js, style.css)
+📊 Part 3: Created the player class, initial name/turn prompts, scoreboard display, and wrote the initial README (index.html, playerCreator.js, style.css)
 
-♥️ Part 4: Developed the game loop, set logic, set validation, and scoring rules (cardUtils.js, gameConfig.js, setLogic.js, setValidation.js, script.js)
+📊️ Part 4: Developed the game loop, set logic, set validation, and scoring rules (cardUtils.js, gameConfig.js, setLogic.js, setValidation.js, script.js)
 
 ## 📕 My Responsibilities included:
 
@@ -115,24 +115,39 @@ I designed and developed this full-stack browser game, Game of Set, using JavaSc
 ## Development History
 
 Apr 4, 2025 – Final cleanup of the codebase and refactored game loop
+
 Apr 4, 2025 – Updated layout for visual clarity and improved spacing
+
 Apr 4, 2025 – Split core logic into modular JavaScript files for readability
+
 Apr 4, 2025 – Fixed shape dimensions and standardized color/shape labels
+
 Apr 4, 2025 – Added final game screen with winner display, duration, and score summary
+
 Apr 4, 2025 – Adjusted UI prompt styling and modal positioning
+
 Apr 3, 2025 – Implemented timer controls, modals for start/end game flow
+
 Apr 3, 2025 – Enhanced hint bank to support multiple hint tiers
+
 Apr 3, 2025 – Integrated scoring system with player management logic
 
 Apr 2, 2025 – Developed the full hint system with hint box display
+
 Apr 2, 2025 – Created hint button functionality with hint tracking
+
 Apr 2, 2025 – Streamlined UI elements and adjusted hint box dimensions
+
 Apr 2, 2025 – Removed unused player.js to simplify player logic
+
 Apr 2, 2025 – Added game timer and implemented hint-related logic
 
 Apr 1, 2025 – Designed the hint box UI and updated sidebar styling
+
 Apr 1, 2025 – Built player setup prompts and display modals
 
 Mar 31, 2025 – Implemented set-checking logic and scoring function
+
 Mar 28, 2025 – Created player class for handling names and scores
+
 Mar 26, 2025 – Developed card generation logic and selection UI framework
