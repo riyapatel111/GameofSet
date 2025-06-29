@@ -73,10 +73,10 @@ Project Structure:
 
 ├── style.css
 
-## 👩‍💻 Responsibilities & Contributions
+## 👩‍💻 Responsibilities
 I designed and developed this full-stack browser game, Game of Set, using JavaScript, HTML, and CSS.
 
-## I divided my tasks into 4 parts:
+## Divided tasks into 4 parts:
 
 ♥️ Part 1: Built the game board, card UI, selection logic, and designed a clean user interface with intuitive instructions (index.html, gameBoard.js, gameConfig.js, cardUtils.js, style.css)
 
