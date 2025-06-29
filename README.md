@@ -122,7 +122,7 @@ Apr 4, 2025 – Split core logic into modular JavaScript files for readability
 
 Apr 4, 2025 – Fixed shape dimensions and standardized color/shape labels
 
-Apr 4, 2025 – Added final game screen with winner display, duration, and score summary
+Apr 4, 2025 – Added final game screen with winner display, duration, & score summary
 
 Apr 4, 2025 – Adjusted UI prompt styling and modal positioning
 
